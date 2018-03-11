@@ -1,0 +1,62 @@
+body {
+  margin: 5%;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: '. . S S S .' 'F F S S S .' 'F F T T P P' '. . T T P P';
+  grid-gap: 10px;
+}
+
+.one {
+  grid-area: F;
+}
+
+.two {
+  grid-area: S;
+}
+
+.three {
+  grid-area: T;
+}
+
+.lapinThree {
+  width: 100%;
+}
+
+.lapinTwo {
+  width: 140%;
+}
+
+.lapinOne {
+  width: 100%;
+}
+
+.paragraph {
+  grid-area: P;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .wrapper {
+    display: grid;
+    grid-template-areas: 'F F F S S S ' 'F F F S S S ' 'T T T P P P' 'T T T P P P' 'T T T P P P';
+    grid-gap: 10px;
+  }
+  .one {
+    grid-area: F;
+  }
+  .two {
+    grid-area: S;
+  }
+  .three {
+    grid-area: T;
+  }
+  .lapin1 {
+    height: 100%
+  }
+  .paragraph {
+    grid-area: P;
+    font-size: 10px;
+  }
