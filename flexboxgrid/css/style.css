@@ -1,0 +1,15 @@
+body {
+  margin: 5%;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.partOne {
+  width: 100%;
+  height: 30vh;
+}
+
+.partTwo {
+  width: 100%;
+  height: 30vh;
+}
